@@ -33,7 +33,7 @@ const Navbar = () => {
 
      </div>
      <div id='list' className='absolute top-0 right-[-300px] duration-300 ease-in'>
-        <ul  className=' md:hidden shadow-2xl bg-gradient-to-b from-[#f2f4f5] to-[#eef1f3]/0 backdrop-blur-xl rounded-lg overflow-hidden flex flex-col justify-start items-center w-[300px] gap-0 h-screen p-4 z-40 absolute top-0 right-0' >
+        <ul  className=' md:hidden shadow-2xl bg-gradient-to-b from-[#f2f4f5] to-[#eef1f3]/100 backdrop-blur-xl rounded-lg overflow-hidden flex flex-col justify-start items-center w-[300px] gap-0 h-screen p-4 z-40 absolute top-0 right-0' >
             <div className='cursor-pointer text-black border border-black p-1 rounded-full bg-transparent mb-4' 
             onClick={()=>{
               const y = document.getElementById ("list");
